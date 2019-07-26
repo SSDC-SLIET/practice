@@ -1,4 +1,4 @@
-#[Problem Link](https://practice.geeksforgeeks.org/problems/product-of-maximum-in-first-array-and-minimum-in-second/0)
+# [Problem Link](https://practice.geeksforgeeks.org/problems/product-of-maximum-in-first-array-and-minimum-in-second/0)
 
 **Problem Name: Product of maximum in first array and minimum in second**
 
