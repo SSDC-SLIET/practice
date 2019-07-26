@@ -4,7 +4,7 @@
 
 Given two arrays of A and B respectively of sizes N1 and N2, the task is to calculate the product of maximum element of first array and minimum element of second array.
 
-Input:
+**Input:**
 The first line of the input contains a single integer T, denoting the number of test cases. Then T test case follows. Each testcase contains 4 lines. First line contains size of the first array N1, next line contains elements of the first array separated by spaces. Third line contains size of the second array N2 and next line contains elements of the second array separated by spaces.
 
 **Output:**
