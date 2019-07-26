@@ -1,6 +1,6 @@
-<a href="https://practice.geeksforgeeks.org/problems/product-of-maximum-in-first-array-and-minimum-in-second/0">Problem Link</a>
+Problem Link
 
-Problem-01: Product of maximum in first array and minimum in second
+Problem Name: Product of maximum in first array and minimum in second
 
 Given two arrays of A and B respectively of sizes N1 and N2, the task is to calculate the product of maximum element of first array and minimum element of second array.
 
@@ -33,6 +33,3 @@ Output:
 
 Explanation:
 Testcase 1: The first array is 5 7 9 3 6 2. The max element among these elements is 9. The second array is 1 2 6 -1 0 9. The min element among these elements is -1. The product of 9 and -1 is 9*-1=-9.
-
-
-Problem Link: https://practice.geeksforgeeks.org/problems/product-of-maximum-in-first-array-and-minimum-in-second/0
