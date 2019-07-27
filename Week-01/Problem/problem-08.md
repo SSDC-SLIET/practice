@@ -1,4 +1,4 @@
-# [Problem Link](https://practice.geeksforgeeks.org/problems/ugly-numbers/0)
+# [Problem Link](https://practice.geeksforgeeks.org/problems/ugly-numbers/0){:target='_blank'}
 
 ## Problem name: Ugly Numbers
 
