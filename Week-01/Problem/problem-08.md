@@ -1,4 +1,5 @@
 # [Problem Link](https://practice.geeksforgeeks.org/problems/ugly-numbers/0){:target="_blank"}
+<a href='https://practice.geeksforgeeks.org/problems/ugly-numbers/0'>Promlem Link</a>
 
 ## Problem name: Ugly Numbers
 
