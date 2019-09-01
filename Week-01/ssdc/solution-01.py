@@ -1,1 +1,0 @@
-print('Greeting from SSDC')
