@@ -1,0 +1,1 @@
+print('Greeting from SSDC')
