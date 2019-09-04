@@ -1,0 +1,32 @@
+#include<iostream>
+using namespace std;
+int main()
+ {
+	int t,n,n1,i,max,min;
+	cin>>t;
+	while(t--)
+	{
+	    cin>>n;
+	    int arr[n];
+	    for(i=0;i<n;i++)
+	    {
+	        cin>>arr[i];
+	        if(i==0)
+	            max=arr[0];
+	        else if(arr[i]>max)
+	                max=arr[i];
+	    }
+	    cin>>n1;
+	    int arr1[n1];
+	    for(i=0;i<n1;i++)
+	    {
+	        cin>>arr1[i];
+	        if(i==0)
+	            min=arr1[0];
+	        else if(arr1[i]<min)
+	                min=arr1[i];
+	    }
+	    cout<<max*min<<endl;
+	}
+	return 0;
+}
