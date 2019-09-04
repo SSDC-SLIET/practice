@@ -1,0 +1,31 @@
+#include<iostream>
+using namespace std;
+int main()
+ {
+     int t;
+     cin>>t;
+     while(t--)
+     {
+         long long int n,f=0,ele;
+         cin>>n;
+         long long int ar[n];
+         for(int i=0;i<n;i++)
+         {
+             cin>>ar[i];
+         }
+         for(int i=0;i<n;i=i+2)
+         {
+             if(ar[i]!=ar[i+1])
+             {
+                 f=1;
+                 ele=ar[i];
+                 break;
+             }
+         }
+         if(f==1)
+            cout<<ele<<endl;
+     }
+     
+	//code
+	return 0;
+}
