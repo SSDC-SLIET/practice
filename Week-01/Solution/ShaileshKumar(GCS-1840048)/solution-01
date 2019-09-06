@@ -1,1 +1,33 @@
 
+#include <iostream>
+using namespace std;
+
+int main() {
+    int T;
+    cin>>T;
+    for(int i=1;i<=T;i++)
+    {
+    long long int N1;
+    cin>>N1;
+    long long int A[N1];
+    for(int j=0;j<N1;j++)
+    cin>>A[j];
+    long long int N2;
+    cin>>N2;
+    long long int B[N2];
+    for(int j=0;j<N2;j++)
+    cin>>B[j];
+    long long int max,min;
+    max=A[0];
+    min=B[0];
+    for(int j=0;j<N1;j++)
+    if(max<A[j])
+    max=A[j];
+    for(int j=0;j<N2;j++)
+    if(min>B[j])
+    min=B[j];
+    cout<<max*min<<endl;
+    }
+	//code
+	return 0;
+}
