@@ -1,47 +1,43 @@
 #include <iostream>
 using namespace std;
 
-int main() 
-{   
-    int cases,terms,sum,flag=0,i,j;
-    scanf("%d",&cases);
-    
-    for(int t=0;t<cases;t++)
-    {
-        scanf("%d",&terms);
-        int array[terms];
-        
-        for(i=0;i<terms;i++)
-        {
-            scanf("%d",&array[i]);
-        }
-        
-        scanf("%d",&sum);
-        
-        i=0;
-        j=terms-1;
-        while(1)
-        {
-            if(array[i]+array[j]==sum)
+int main()
+{
+   int cases,t,min,max,terms;
+   scanf("%d",&cases);
+   
+   for(t=0;t<cases;t++)
+   {
+     int count=0;  
+     scanf("%d%d%d",&terms,&min,&max);
+     int array[terms];
+     
+     for(int i=0;i<terms;i++)
+     {
+        scanf("%d",&array[i]);
+     }
+     
+     for(int i=min;i<=max;i++)
+     {
+        for(int j=0;j<terms;j++)
+         {
+            if(i==array[j])
             {
-              printf("%d %d %d\n",array[i],array[j],sum);
-              i++;
-              flag=1;
+                count++;
+                break;    
             }
-            else if(array[i]+array[j]>sum)
-            j--;
-            else if(array[i]+array[j]<sum)
-            i++;
-            
-            if(i>=j)
-            break;
-        }
+         } 
         
-        if(flag==0)
-        printf("-1\n");
-        
-        if(flag==1)
-        flag=0;
+     }
+     
+    if(count==max-min+1)
+    {
+        printf("Yes\n");
     }
-	return 0;
+    else
+    {
+        printf("No\n");
+    }
+    
+   }
 }
