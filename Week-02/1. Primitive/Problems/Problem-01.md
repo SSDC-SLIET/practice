@@ -1,4 +1,4 @@
-# [CLICK HERE - Problem Link] (https://practice.geeksforgeeks.org/problems/swap-two-numbers/0)
+# [CLICK HERE - Problem Link](https://practice.geeksforgeeks.org/problems/swap-two-numbers/0)
 
 **Swap two numbers**
 *(Try to do it without a temporary variable.)*
