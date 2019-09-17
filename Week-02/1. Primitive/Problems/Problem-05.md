@@ -1,6 +1,6 @@
 ## [CLICK HERE - Problem Link](https://practice.geeksforgeeks.org/problems/reverse-the-string/0)
 
-#**Reverse a String**
+# **Reverse a String**
 
 Given a string S as input. You have to reverse the given string.
 
