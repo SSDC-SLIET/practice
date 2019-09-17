@@ -1,0 +1,46 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int i,t;
+    cin>>t;
+    for(i=0;i<t;i++)
+    {
+       int n,d;
+       long sum;
+       int* c;
+       int* p;
+       cin>>n>>d;
+       c=new int[n];
+       p=new int[n];
+       for(long j=0;j<n;j++)
+       {
+           cin>>c[j];
+       }
+       for(long j=0;j<n;j++)
+       {
+           cin>>p[j];
+       }
+       if(d%2==0)
+       {
+           sum=0;
+           for(long j=0;j<n;j++)
+           {
+               if(c[j]%2!=0)
+                   sum+=p[j];
+           }
+       }
+       if(d%2!=0)
+       {
+           sum=0;
+           for(long j=0;j<n;j++)
+           {
+               if(c[j]%2==0)
+               sum+=p[j];
+           }
+       }
+       cout<<sum<<endl;
+    }
+	//code
+	return 0;
+}

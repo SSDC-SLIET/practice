@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int i,t;
+    cin>>t;
+    for(i=0;i<t;i++)
+    {
+        int n,a,b,count=0;
+        cin>>n>>a>>b;
+        int* arr;
+        arr=new int[n];
+        for(int j=0;j<n;j++)
+        cin>>arr[j];
+        for(int j=a;j<=b;j++)
+        {
+            int temp =0;
+            for(int p=0;p<n;p++)
+            {
+                if(j==arr[p])
+                temp++;
+            }
+            if(temp>0)
+            count++;
+        
+        }
+        if(count==(b-a+1))
+        cout<<"Yes"<<endl;
+        else
+        cout<<"No"<<endl;
+    }
+    //code
+	return 0;
+}
+	
