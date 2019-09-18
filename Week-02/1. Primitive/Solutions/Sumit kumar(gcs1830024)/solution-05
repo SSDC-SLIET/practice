@@ -1,0 +1,31 @@
+#include<iostream>
+#include<string.h>
+using namespace std;
+int main()
+ {
+    int t;
+    cin>>t;
+    while(t--)
+    {
+        string s;
+        cin>>s;
+        int f=0,s1;
+        s1=s.size();
+        int l=s1;
+        while(f<l)
+        {
+            t=s[f];
+            s[f]=s[l];
+            s[l]=t;
+            f++;
+            l--;
+        }
+        for(int i=1;i<=s1;i++)
+        {
+            cout<<s[i];
+        }
+        cout<<endl;
+    }
+	//code
+	return 0;
+}
