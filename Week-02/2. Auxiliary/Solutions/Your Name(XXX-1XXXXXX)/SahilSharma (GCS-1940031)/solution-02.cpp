@@ -5,42 +5,36 @@
 int main()
 {
     int cases,motu,patlu,size;
-    unsigned long long temp;
+    unsigned long long sum_m,sum_p,temp;
     
-    double sum,vec_sum;
     
     std::cin >> cases;
     
     while(cases--)
     {
-        motu=1,sum=0,vec_sum=0;
+        motu=1,sum_m=0,sum_p=0;
         std::vector<unsigned long long> ice_cream;
         std::cin >> size;
         
-        for(int i=0 ; i<size ;i++)
+        for(int i=0 ; i<size ; i++)
         {
             std::cin >> temp;
             ice_cream.push_back(temp);
-            vec_sum+=temp;
         }
         
-        sum=ice_cream[0];
+        sum_m=ice_cream[0];
+        sum_p=ice_cream[size-1];
         
-        for(int i=1 ; i<size-1 ; i++)
+        for(int i=1,j=size-1 ; i<j ; NULL)
         {
-            sum+=ice_cream[i];
-            motu++;
-            if(sum > 2*vec_sum/3)
+            if(sum_m<=2*sum_p)
             {
-            sum-=ice_cream[i];
-            if(sum+2*((float)ice_cream[i])/3 <= 2*vec_sum/3)
-            break;
+                sum_m+=ice_cream[i++];
+                motu++;
+            }    
             else
-            {
-                motu--;
-                break;
-            }
-            }
+                sum_p+=ice_cream[--j];
+            
         }
        
     patlu=size-motu;
