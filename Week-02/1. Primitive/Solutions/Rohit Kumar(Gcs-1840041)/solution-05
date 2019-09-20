@@ -1,0 +1,23 @@
+#include <iostream>
+#include<algorithm>
+using namespace std;
+
+int main() {
+	//code
+	int t;
+	cin>>t;
+	cin.ignore();
+	for(int i=0;i<t;i++)
+	{
+	   string s;
+	   int l;
+	   getline(cin,s);
+	   l=s.size();
+	   reverse(begin(s),end(s));
+	   for(int j=0;j<l;j++)
+	   cout<<s[j];
+	   cout<<endl;
+	   
+	}
+	return 0;
+}
