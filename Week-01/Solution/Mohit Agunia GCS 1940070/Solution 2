@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t,n,a,b,i,x,flag=0,j;
+	cin>>t;
+	for(i=1;i<=t;i++)
+	{
+	    cin>>n;
+	    cin>>a;
+	    cin>>b;
+	    for(j=0;j<n;j++)
+	    {
+	        cin>>x;
+	        if(x<a||x>b)
+	        flag++;
+	    }
+	    if(flag)
+	    cout<<"No\n";
+	    else
+	    cout<<"Yes\n";
+	}
+	return 0;
+}
