@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int t,m;
+    scanf("%d",&m);
+    for(t=0;t<m;t++)
+    {
+        int a,b;
+        scanf("%d%d",&a,&b);
+        a=a+b;
+        b=a-b;
+        a=a-b;
+        printf("%d\n%d",a,b);
+
+    }
+    return 0;
+}
