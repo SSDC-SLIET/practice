@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t,i,j,x,n,max,min;
+	cin>>t;
+	for(i=0;i<t;i++)
+	{
+	    cin>>n;
+	    cin>>x;
+	    max=x;
+	    for(j=1;j<n;j++)
+	    {
+	        cin>>x;
+	        if(x>max)
+	        max=x;
+	    }
+	    
+	    cin>>n;
+	    cin>>x;
+	    min=x;
+	    for(j=1;j<n;j++)
+	    {
+	        cin>>x;
+	        if(x<min)
+	        min=x;
+	    }
+	    cout<<max*min<<endl;
+	}
+	return 0;
+}
