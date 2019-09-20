@@ -1,7 +1,7 @@
 # [Problem Link](https://practice.geeksforgeeks.org/problems/pair-with-given-sum-in-a-sorted-array/0)
 
 
-##Problem Name: Pair with given sum in a sorted array
+## Problem Name: Pair with given sum in a sorted array
 
 You are given an array A of size N. You need to find all pairs in the array that sum to a number K. If no such pair exists then output will be -1. The elements of the array are distinct and are in sorted order.
 Note: (a,b) and (b,a) are considered same. Also, an element cannot pair with itself, i.e., (a,a) is invalid.
