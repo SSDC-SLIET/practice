@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+ {
+	int t,n,i,j,arr[100],min,max;
+	scanf("%d",&t);
+	for(i=0;i<t;i++)
+	{
+	    max=0;
+	    min=100;
+	    scanf("%d",&n);
+	    for(j=0;j<n;j++)
+	    {
+	        scanf("%d",&arr[i]);
+            if(arr[i]>max)
+                max=arr[i];
+            if(min>arr[i])
+                min=arr[i];
+	    }
+	    printf("%d %d\n",max,min);
+	}
+	return 0;
+}
