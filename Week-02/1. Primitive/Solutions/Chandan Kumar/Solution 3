@@ -1,0 +1,17 @@
+#include<iostream>
+#include <cstdio>
+using namespace std;
+int main()
+ {
+	int t,n,i;
+	string s1[11],l;
+	cin>>t;
+	while(t--)
+	{
+	    cin>>l;
+	    for(i=l.size()-1;i>-1;i--)
+	        cout<<l[i];
+	   cout<<endl;
+	}
+	return 0;
+}
