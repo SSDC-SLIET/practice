@@ -1,6 +1,6 @@
 ## [Problem Link](https://www.codechef.com/FEB19B/problems/ARTBALAN)
 
-# ** Art of Balance **
+# **Art of Balance**
 
 "Everything in the universe is balanced. Every disappointment you face in life will be balanced by something good for you! Keep going, never give up."
 
@@ -26,9 +26,11 @@ S contains only uppercase English letters
 
 
 **SAMPLE INPUT**
+
 2
 ABCB
 BBC
+
 **SAMPLE OUTPUT**
 1
 1
