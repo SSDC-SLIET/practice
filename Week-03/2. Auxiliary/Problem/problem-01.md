@@ -1,6 +1,6 @@
 ## [Problem Link](https://www.codechef.com/FEB19B/problems/HMAPPY2)
 
-# **Appy and Contest **
+# ** Appy and Contest **
 
 TAppy and Chef are participating in a contest. There are N problems in this contest; each problem has a unique problem code between 1 and N inclusive. Appy and Chef decided to split the problems to solve between them ― Appy should solve the problems whose problem codes are divisible by A but not divisible by B, and Chef should solve the problems whose problem codes are divisible by B but not divisible by A (they decided to not solve the problems whose codes are divisible by both A and B).
 
