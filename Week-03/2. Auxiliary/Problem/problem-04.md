@@ -1,6 +1,6 @@
 ## [Problem Link](https://www.codechef.com/FEB19B/problems/GUESSRT)
 
-# ** Guess It Right  **
+# **Guess It Right**
 
 Chef is playing a game against a magician. In this game, there are initially N identical boxes in front of Chef and one of them contains a magic pill ― after eating this pill, you would never get compilation errors ever again.
 
@@ -20,17 +20,20 @@ The first and only line of each test case contains three space-separated integer
 For each test case, print a single line containing one integer ― P⋅Q−1 modulo 109+7, where P/Q is the probability that Chef gets the pill.
 
 **Constraints:**
+
 1≤T≤105
 1≤N<K≤3⋅104
 1≤M≤3⋅104
 
 **SAMPLE INPUT**
+
 3
 5 9 1
 7 9 2
 3 20 3
 
 **SAMPLE OUTPUT**
+
 400000003
 196428573
 555555560
