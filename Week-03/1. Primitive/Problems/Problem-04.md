@@ -1,6 +1,6 @@
 ## [CLICK HERE - Problem Link](https://practice.geeksforgeeks.org/problems/count-pairs-with-given-sum/0)
 
-#**Count pairs with given sum** 
+# **Count pairs with given sum** 
 Given an array of integers, and an integer  ‘K’ , find the count of pairs of elements in the array whose sum is equal to 'K'.
 
 **Input:**
