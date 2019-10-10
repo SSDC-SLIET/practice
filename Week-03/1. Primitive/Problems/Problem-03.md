@@ -1,6 +1,6 @@
 ## [CLICK HERE - Problem Link](https://practice.geeksforgeeks.org/problems/maximum-product-of-two-numbers/0)
 
-#**Maximum product of two numbers** 
+# **Maximum product of two numbers** 
 Given an array with all elements greater than or equal to zero. Return the maximum product of two numbers possible.
 
 **Input:**
