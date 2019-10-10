@@ -1,6 +1,6 @@
 ## [Problem Link](https://www.codechef.com/FEB19B/problems/CHEFING)
 
-# ** Chef and Secret Ingredients **
+# **Chef and Secret Ingredients**
 
 Chef recently visited ShareChat Cafe and was highly impressed by the food. Being a food enthusiast, he decided to enquire about the ingredients of each dish.
 
