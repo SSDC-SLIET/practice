@@ -1,6 +1,6 @@
 ## [CLICK HERE - Problem Link](https://practice.geeksforgeeks.org/problems/replace-all-0s-with-5/1)
 
-#**Replace all 0's with 5**
+# **Replace all 0's with 5**
 You are given an integer n. You need to convert all zeroes of n to 5.
 
 **Input Format:**
