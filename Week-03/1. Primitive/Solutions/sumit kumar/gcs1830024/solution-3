@@ -1,0 +1,22 @@
+#include<iostream>
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+ {
+     int t;
+     cin>>t;
+     while(t--)
+     {
+         long long int n;
+         cin>>n;
+         int ar[n];
+         for(int i=0;i<n;i++)
+         {
+            cin>>ar[i];
+         }
+        sort(ar,ar+n);
+        cout<<(ar[n-1])*(ar[n-2])<<endl;
+     }
+	//code
+	return 0;
+}
