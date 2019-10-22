@@ -1,0 +1,18 @@
+int convertFive(int n)
+{
+    int r,i=1,num=0;
+    while(n!=0)
+    {
+        r=n%10;
+        if(r==0)
+        {
+            num=5*i+num;
+        }
+        else
+        {
+            num=r*i+num;
+        }
+        i=i*10;
+        n=n/10;
+    }
+    return num;
