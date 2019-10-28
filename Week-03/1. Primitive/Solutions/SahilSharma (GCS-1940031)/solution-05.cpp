@@ -37,7 +37,7 @@ lli merged(lli l,lli m,lli r)
          else
          { 
              arr[k++]=right[j++]; 
-             invcount += (m-l+1-i);  (m-l+1-i); 
+             invcount += (m-l+1-i);
              // cout << m-l+1-i << endl;
          }
        
