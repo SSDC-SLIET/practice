@@ -1,0 +1,16 @@
+int convertFive(int n)
+{
+    int m=0,l=0,q;
+    
+    while(n!=0)
+    {
+       q=n%10;
+       if(q==0)
+       m=m+5*pow(10,l);
+       else
+       m=m+q*pow(10,l);
+       l++;
+       n/=10;
+    }
+    return m;
+}
