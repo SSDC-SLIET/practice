@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int T,N,M,a,b,k,i,j,l,max;
+	std::cin>>T;
+	for(int i=0;i<T;i++)
+	{
+	    cin>>N>>M;
+	    int arr[N]={0};
+	    for(j=0;j<M;j++)
+	    {cin>>a>>b>>k;
+	     for(l=a;l<=b;l++)
+	     arr[l]+=k;
+	    }
+	max=arr[0];
+	for(j=1;j<N;j++)
+	{
+	    if(arr[j]>max)
+	    max=arr[j];
+	}
+	std::cout<<max<<"\n";
+	}
+	return 0;
+}
