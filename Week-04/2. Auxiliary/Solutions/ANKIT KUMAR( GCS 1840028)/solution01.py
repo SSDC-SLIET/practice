@@ -1,22 +1,25 @@
 #code
+    
 def main():
     t=int(input())
     for _ in range(t):
         n,k=map(int,input().split())
         arr=[x for x in map(int,input().split())]
-        arr.sort();
-        count=0
-        f_c=0
-        for i in range(n):
-            if(arr[i]==k):
-                count+=1
-            elif(arr[i]>k):
-                count1=0
-                for j in range(i+1,n):
-                    if(arr[j]%arr[i]==k):
-                        count1+=1
-                f_c+=count1+count
-        print(f_c)
+        arr=list(filter(lambda x:x>=k,arr))
+        arr.sort()
+        cnt_k=0
+        cnt=0
+        for i in range(len(arr)):
+            if(i==0 and arr[i]==k):
+                    cnt_k+=1
+            else:
+              for j in range(i+1,len(arr)):
+                if(arr[j]%arr[i]==k):
+                      #print(arr[j],arr[i])
+                      cnt+=1
+              cnt+=cnt_k
+        #print(arr)    
+        print(cnt)
             
             
 if __name__=="__main__":
