@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t,x,y,z,n,k,flag;
+	std::cin>>t;
+	for(x=0;x<t;x++)
+	{   flag=0;
+	    std::cin>>n;
+	    std::cin>>k;
+	    int a[n];
+	    for(y=0;y<n;y++)
+	    std::cin>>a[y];
+	    
+	    
+	   for(y=0;y<n;y++)
+	    {
+	        for(z=0;z<n;z++)
+	        {
+	            if(z==y)
+	            continue;
+	            if(a[y]%a[z]==k)
+	            flag++;
+	        }
+	    }
+	    
+	    std::cout<<flag<<"\n";
+	}
+	
+	
+	
+	
+	
+	return 0;
+}
