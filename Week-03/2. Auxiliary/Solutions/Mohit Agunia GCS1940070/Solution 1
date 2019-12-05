@@ -1,0 +1,30 @@
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+int main() {
+	int t,n,a,b,k,ctr,i,j;
+	std::cin>>t;
+	for(i=0;i<t;i++)
+	{
+	    ctr=0;
+	    std::cin>>n>>a>>b>>k;
+	    for(j=std::min(a,b);j<=n;j++)
+	    {
+	        if(j%a==0)
+	        {if(j%b!=0)
+	         ctr++;
+	        }
+	        else if(j%b==0)
+	        {
+	            ctr++;
+	        }
+	    }
+	    if(ctr>=k)
+	    std::cout<<"Win\n";
+	    else
+	    std::cout<<"Lose\n";
+	}
+	
+	return 0;
+}
