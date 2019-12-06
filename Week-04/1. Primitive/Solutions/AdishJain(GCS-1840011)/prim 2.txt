@@ -1,0 +1,47 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+ {
+	
+	int t;
+
+	cin>>t;
+
+	while(t--){
+
+	    int n;
+
+	    cin>>n;
+
+	    int a[n],i;
+
+	    for(i=0;i<n;i++)
+
+	        cin>>a[i];
+
+	    int l=0,r=0;
+
+	    for(i=0;i<n;i++)
+
+	    {
+
+	        if(i<n/2)
+
+	            l+=a[i];
+
+	        else
+
+	            r+=a[i];
+
+	    }
+
+	    cout<<l*r<<endl;
+
+	
+}
+
+	return 0;
+
+}
