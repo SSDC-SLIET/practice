@@ -1,0 +1,26 @@
+#include <iostream>
+
+
+int main() {
+	int t,i,n,j,n2,sum1,sum2,x,prod;
+	std::cin>>t;
+	for(i=0;i<t;i++)
+	{sum1=0;
+	 sum2=0;
+	 std::cin>>n;
+	 n2=n/2;
+	for(j=1;j<=n2;j++)
+	{
+	    std::cin>>x;
+	    sum1=sum1+x;
+	}
+	for(j=j;j<=n;j++)
+	{
+	    std::cin>>x;
+	    sum2=sum2+x;
+	}
+	prod=sum1*sum2;
+	std::cout<<prod<<"\n";    
+	}
+	return 0;
+}
