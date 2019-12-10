@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t!=0){
+	    int n,a,b,count=0;
+	    float k;
+	    cin>>n>>k;
+	     int ar[n];
+	    for(int i=0;i<n;i++)
+	    {
+	        cin>>ar[i];
+	    }
+	   
+	    for(int i=0;i<n;i++)
+	    { a=ar[i];
+	    for(int j=0;j<n;j++)
+	    {b=ar[j];
+	        if(a%b==k)
+	        count++;
+	    }}
+	    cout<<count<<endl;
+	    t--;
+	}
+	return 0;
+}
