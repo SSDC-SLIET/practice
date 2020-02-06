@@ -1,0 +1,32 @@
+#include<bits/stdc++.h>
+
+using namespace std;
+
+int main()
+ {
+	
+	int t;
+
+	float n,m;
+
+	cin>>t;
+
+	while(t--){
+
+	    cin>>n;
+
+	    m=(n-3)/3;
+
+	    if(floor(m)==m)
+
+	        cout<<m<<" "<<m+1<<" "<<m+2<<endl;
+	    
+	    else
+
+	        cout<<-1<<endl;
+
+	}
+
+	return 0;
+
+}
