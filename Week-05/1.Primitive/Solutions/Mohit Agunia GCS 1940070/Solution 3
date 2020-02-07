@@ -1,0 +1,43 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t,n,i,j,start,end;
+	cin>>t;
+	for(i=0;i<t;i++)
+	{
+	    cin>>n;
+	    int a[n];
+	    for(j=0;j<n;j++)
+	    {
+	        cin>>a[j];
+	    }
+	    if(a[0]>a[n-1])
+	    {
+	      start=0;end=n-1;  
+	      while(start<end)
+	      {
+	          cout<<a[start]<<" "<<a[end];
+	          start++;
+	          end--;
+	       
+	      }
+	      if(end==start)
+	        cout<<a[end];
+	    }
+	    else
+	    {
+	        start=n-1;
+	        end=0;
+	        while(end<start)
+	        {cout<<a[start]<<" "<<a[end]<<" ";
+	          start--;
+	          end++;
+	        }
+	        if(end==start)
+	        cout<<a[end];
+	    }
+	    cout<<endl;
+	}
+	return 0;
+}
