@@ -1,0 +1,6 @@
+if __name__ == '__main__':
+    n = int(input())
+    for i in range(n):
+        num1,num2=map(int,input().split())
+        result=(num1+num2)%12
+        print(result)
