@@ -7,7 +7,7 @@ int main()
 	cin>>T;
 	for(int i=0;i<T;i++)
 	{
-	    int a,b,c;
+	    int a,b;
 	    cin>>a>>b;
 	    cout<<(a+b)%12<<endl;
 	}
