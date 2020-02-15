@@ -1,0 +1,19 @@
+if __name__ == "__main__": 
+    t=int(input())
+    for i in range(t):
+        length=int(input())
+        lis=list(input().split())
+        x=len(lis)-1
+        l=[]
+        i=0
+        while x>i:
+            l.append(lis[x])
+            l.append(lis[i])
+            i+=1
+            x-=1
+        if x==i:
+            l.append(lis[x])
+        for i in range(len(l)):
+            print(l[i],'',end='')
+        print()
+            
